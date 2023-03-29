@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petção</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Lobster&family=Noto+Serif+Display:wght@100;200;400;600&family=Pacifico&family=Shrikhand&display=swap" rel="stylesheet">
+    <!--Style para facilitar o desenvolvimento, logo apos eu terminar farei o link das paginas index.html com a style.css-->
+    <style>
+        body {
+            margin: auto;
+            padding: 0;
+            background: #e4e4e4;
+            max-width: 2000px;
+           
+        }
+        .container {
+            display: grid;
+        }
+        .index {
+            margin-top: 50px;
+            display: grid;
+            grid-auto-flow: column;
+            margin-right: 50px;
+            margin-left: 20px;
+        }
+        #logo {
+            float: left;
+            width: 80px;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        .menu {
+            background: #B8EA89;
+            height: 110px;
+            
+        }
+        .container h1, h2, h3, h4 {
+            font-family: 'Pacifico', cursive;
+            font-weight: 100;
+            margin-left: 30px;
+            text-align: center;
+        }
+        .menu h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 45px;
+            float: left;
+            margin-top: 25px;
+            text-align: left;
+            margin-left: 20px;
+            color: #030303;
+        }
+        .buttonMenu li {
+            font-family: 'Baloo Tamma 2', cursive;
+            font-size: 20px;
+            display: inline-block;
+            margin-left: 10px;
+            text-decoration:dotted;
+        }
+        ul {
+            float: right;
+            margin-top: 30px;
+            margin-right: 30px;
+            background-color: white;
+            text-align: center; 
+            padding: 3px 20px 1px 10px;
+            border-radius: 50px;
+            opacity: 0.60;
+        }
+        .photos {
+            width: 300px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 40px;
+            border: 3px solid #B8EA89;
+            border-radius: 20px;
+        }       
+        .container p {
+            font-family: 'Baloo Tamma 2', cursive;
+            margin-left: 30px;
+        }
+        .about p {
+            text-align: justify;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .buttonCta {
+            margin-left: 300px;
+            margin-top: 100px;
+            font-family: 'Lobster', cursive;
+            background: #f5e61a;
+            padding: 15px 20px 15px 20px;
+            border-radius: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="menu">
+            <header>
+                <img id="logo" src="img/logo.png">
+                <h1>Petção</h1>
+                <ul class="buttonMenu">
+                    <li>Início</li>
+                    <li>Adoção</li>
+                    <li>Suporte</li>
+                    <li><a href="login.html">Entrar</a></li>
+                    <li>Cadastre-se</li>
+                </ul>
+            </header>
+        </section>
+        <section class="index">
+            <article class="about">
+                <h2>Quem nós somos?</h2>
+                    <p> O Petção é um movimento social para ajudar os animais a encontrar o seu novo lar e ser muito amado por seu futuro dono. <br>
+
+                        Cadastre-se em nosso site e escolha seu pet para dar muito amor e carinho!<br>
+                        Ajude-nos doando qualquer valor para assim podermos ajudar os cãezinhos abandonados!
+                    </p>
+                <a class="buttonCta" hreft="">Doe Aqui!</a>
+            </article>
+            <section>
+                <header class="about">
+                    <h2>Conheça nosso trabalho:</h2>
+                    <p> Todo mês é feita uma rota que chamamos de "Patrulha do recolhimento", onde nossa equipe de resgate vai às ruas para salvar animais desabrigados,
+                        muitas vezes recebemos ligações de pessoas que nos informam sobre animaizinhos que se encontram desamparados.
+                        Logo nossa equipe de resgate se prepara para buscar o animalzinho. Após o resgate, é feita uma avaliação do estado de saúde do animal com nossa
+                        equipe de veterinários, onde é feita a pesagem, exames, averiguação de machucados e etc.<br>
+                        Mediante a avaliação e o estado do animal, é feito o relatório onde é dado os 3 tipos de resultado, sendo eles: Saudável, Ferido ou Adoecido.
+                        E com esse resultado designamos o animal ao seu devido local. Nosso espaço de tratamento é grande, então é feita a separação dos animais de acordo ao seu estado de saúde.<br>  
+                        Conforme os dias vão se passando, os animais ficam saudáveis e aptos a serem adotados. <br>
+                        Recebemos muita ajuda de doadores para manter esse projeto, também como patrocínio de lojas veterinárias, fornecedores de ração e remédios. E assim mantemos o nosso trabalho com a equipe Petção!
+                        Você também pode nos ajudar doando através do botão "Doe Aqui!" no início da página!
+                    </p>
+                </header>
+            </section>
+        </section>
+        <section>
+
+            <h3>Tratamentos e Cuidados</h3>
+            <p>Os cuidados com os animaizinhos vão de acordo com o relatório feito por nossos veterinários.<br>
+                <b>Animais Saudáveis:</b> É dado os cuidados como banho e vacinação, observamos seu comportamento, sua alimentação e seu físco por um tempo para adequá-lo ao novo local.<br>
+                <img class="photos" src="img/banho4.jpg"> <img class="photos" src="img/vacina.jpg"><br>
+                <b>Animais Feridos:</b> É feita uma avaliação de seus ferimentos, higienização com muito cuidado, curativos e a aplicação de medicamentos necessários para a sua recuperação.<br>
+                <img class="photos" src="img/tratamento.jpg"> <img class="photos" src="img/tratamento2.jpg"><br>
+                <b>Animais Adoecidos:</b> Aos adoecidos nós realizamos exames para descobrir qual a doença que o mesmo possui, dado o diagnóstico fazemos o máximo para torná-lo saudável.<br>
+                Alguns animaizinhos tem a necessidade de passar por cirurgia, e com isso realocamos para um hospital veterinário e cobrimos seu tratamento 100%.<br>
+                Temos parceria com alguns hospitais tornando mais cômodo os tratamentos, cirurgias e exames mais elaborados.<br>
+                <img class="photos" src="img/doente.jpeg"> <img class="photos" src="img/doente2.jpg">
+            </p>  
+        </section>
+         <section>
+            <h3>Nossa rotina</h3>
+            <p>Agora iremos apresentar um pouco sobre a rotina do seu possível novo pet!</p>
+            <h4>Ao chegar:</h4>            
+            <p></p>
+        </section>
+
+    </div>
+</body>
+</html>
